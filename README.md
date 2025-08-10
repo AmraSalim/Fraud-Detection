@@ -14,11 +14,17 @@ Type of Data: Tabular transaction data
 
 Key Features:
 type – Transaction category (PAYMENT, TRANSFER, CASH_OUT, DEPOSIT)
+
 amount – Transaction amount
+
 oldbalanceOrg – Account balance before transaction (Sender)
+
 newbalanceOrig – Account balance after transaction (Sender)
+
 oldbalanceDest – Account balance before transaction (Receiver)
+
 newbalanceDest – Account balance after transaction (Receiver)
+
 isFraud – Target variable (1 = Fraudulent, 0 = Genuine)
 
 The dataset is highly imbalanced, with fraudulent transactions forming a very small percentage of total records.
